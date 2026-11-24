@@ -13,7 +13,7 @@ html, body, #canvas {
 
 body {
 	color: white;
-	background-color: black;
+	background-color: #12307f;
 	overflow: hidden;
 	touch-action: none;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 #status {
-	background-color: #0a0d1f;
+	background-color: #2b6fe8;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -89,6 +89,11 @@ body {
 	text-align: center;
 	z-index: 1;
 }
+		/* lp-progress */
+		#status-progress { height: 16px; border-radius: 8px; border: 2px solid #fff; background: #0a1a5c; overflow: hidden; -webkit-appearance: none; appearance: none; }
+		#status-progress::-webkit-progress-bar { background: #0a1a5c; }
+		#status-progress::-webkit-progress-value { background: #ffb21a; border-radius: 8px; }
+		#status-progress::-moz-progress-bar { background: #ffb21a; }
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
@@ -111,7 +116,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":6304436,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","mainPack":"index.pck?v=7630996","experimentalVK":false,"fileSizes":{"index.pck":7630996,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
