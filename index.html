@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LaneParty – Otoyol Arcade Yarışı | Highway Arcade Racing</title>
+<meta name="description" content="LaneParty: ücretsiz, hızlı otoyol arcade yarışı. Trafikte makas at, polisten kaç, arkadaşlarınla online yarış ve skor tablosuna gir. / Free highway arcade racer: weave through traffic, outrun the cops, race friends online.">
+<meta name="theme-color" content="#2b6fe8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="LaneParty – Highway Arcade Racing">
+<meta property="og:description" content="Weave through traffic, outrun the cops, race your friends. Free, plays in your browser.">
+<meta property="og:url" content="https://sutgames.com/">
+<meta property="og:image" content="https://sutgames.com/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/icon.png">
+<link rel="canonical" href="https://sutgames.com/">
+<link rel="apple-touch-icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top"><img src="img/icon.png" alt="" width="38" height="38"><span>LaneParty</span></a>
+  <nav>
+    <a href="#features" data-i18n="nav_features">Özellikler</a>
+    <a href="#screens" data-i18n="nav_screens">Ekranlar</a>
+    <a href="#play" data-i18n="nav_play">Nasıl oynarım?</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-l="tr" aria-pressed="true">TR</button>
+    <button type="button" data-l="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div class="copy">
+      <h1><span style="position:absolute;left:-9999px">LaneParty</span><img class="logo float" src="img/logo.png" alt="LaneParty" width="520" height="359"></h1>
+      <p class="lead" data-i18n="lead">Otoyolda makas at, polisten kaç, arkadaşlarınla yarış!</p>
+      <div class="cta">
+        <a class="btn btn-play" id="playLink" href="/play/" data-i18n="play">TARAYICIDA OYNA</a>
+        <a class="btn btn-teal" id="apkLink" href="https://github.com/emirhansut/laneparty-download/releases/download/v0.1.1/LaneParty-0.1.1.apk" data-i18n="android">Android APK</a>
+        <a class="btn btn-purple" href="#play" data-i18n="iphone">iPhone'a ekle</a>
+      </div>
+      <div class="pills">
+        <span class="pill" data-i18n="p1">Ücretsiz</span><span class="pill" data-i18n="p2">Kurulum yok</span>
+        <span class="pill" data-i18n="p3">Online yarış</span><span class="pill" data-i18n="p4">Skor tablosu</span>
+      </div>
+    </div>
+    <div class="stage">
+      <div class="phone" aria-hidden="true"><div class="shots">
+        <img class="on" src="img/race_green.png" alt="">
+        <img src="img/race_night.png" alt="">
+        <img src="img/race_desert.png" alt="">
+        <img src="img/leaderboard.png" alt="">
+      </div></div>
+      <span class="badge a" data-i18n="badge_a">3 harita</span>
+      <span class="badge b" data-i18n="badge_b">Hepsi eşit araç!</span>
+    </div>
+  </div>
+
+  <section id="features">
+    <div class="wrap">
+      <h2 class="title reveal" data-i18n="f_title">Neler var?</h2>
+      <p class="sub reveal" data-i18n="f_sub">Kısa, hızlı, bağımlılık yapan otoyol yarışı.</p>
+      <div class="grid">
+        <article class="card c1 reveal"><div class="ico">🏎️</div><h3 data-i18n="f1h">Makas at, kombo yap</h3><p data-i18n="f1p"></p></article>
+        <article class="card c2 reveal"><div class="ico">🚓</div><h3 data-i18n="f2h">Polisten kaç</h3><p data-i18n="f2p"></p></article>
+        <article class="card c3 reveal"><div class="ico">👥</div><h3 data-i18n="f3h">Arkadaşlarınla yarış</h3><p data-i18n="f3p"></p></article>
+        <article class="card c4 reveal"><div class="ico">🏆</div><h3 data-i18n="f4h">Skor tablosu</h3><p data-i18n="f4p"></p></article>
+        <article class="card c5 reveal"><div class="ico">🎨</div><h3 data-i18n="f5h">Kendi tarzını yarat</h3><p data-i18n="f5p"></p></article>
+        <article class="card c6 reveal"><div class="ico">🌅</div><h3 data-i18n="f6h">3 farklı harita</h3><p data-i18n="f6p"></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="screens">
+    <div class="wrap">
+      <h2 class="title reveal" data-i18n="s_title">Oyundan kareler</h2>
+      <p class="sub reveal" data-i18n="s_sub">Telefonda dikey, tek elle.</p>
+    </div>
+    <div class="wrap">
+      <div class="gallery">
+        <figure><div class="ph"><img loading="lazy" src="img/home.png" alt=""></div><figcaption data-i18n="cap1">Ana menü</figcaption></figure>
+        <figure><div class="ph"><img loading="lazy" src="img/race_green.png" alt=""></div><figcaption data-i18n="cap2">Yeşil Vadi</figcaption></figure>
+        <figure><div class="ph"><img loading="lazy" src="img/race_night.png" alt=""></div><figcaption data-i18n="cap3">Gece Sürüşü</figcaption></figure>
+        <figure><div class="ph"><img loading="lazy" src="img/race_desert.png" alt=""></div><figcaption data-i18n="cap4">Çöl</figcaption></figure>
+        <figure><div class="ph"><img loading="lazy" src="img/garage.png" alt=""></div><figcaption data-i18n="cap5">Garaj</figcaption></figure>
+        <figure><div class="ph"><img loading="lazy" src="img/leaderboard.png" alt=""></div><figcaption data-i18n="cap6">Skor tablosu</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="play">
+    <div class="wrap">
+      <h2 class="title reveal" data-i18n="i_title">Nasıl oynarım?</h2>
+      <p class="sub reveal" data-i18n="i_sub">En hızlısı tarayıcı.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" data-p="p_web" aria-selected="true" data-i18n="tab_web">Tarayıcı</button>
+        <button class="tab" role="tab" data-p="p_and" aria-selected="false" data-i18n="tab_and">Android</button>
+        <button class="tab" role="tab" data-p="p_ios" aria-selected="false" data-i18n="tab_ios">iPhone</button>
+      </div>
+      <div class="panel on" id="p_web">
+        <ol class="steps"><li data-i18n="w1"></li><li data-i18n="w2"></li><li data-i18n="w3"></li></ol>
+        <div class="row"><a class="btn btn-play" href="/play/" data-i18n="play">TARAYICIDA OYNA</a></div>
+      </div>
+      <div class="panel" id="p_and">
+        <ol class="steps"><li data-i18n="a1"></li><li data-i18n="a2"></li><li data-i18n="a3"></li></ol>
+        <div class="row"><a class="btn btn-teal" href="https://github.com/emirhansut/laneparty-download/releases/download/v0.1.1/LaneParty-0.1.1.apk" data-i18n="android">Android APK</a></div>
+        <p class="note" style="margin-top:18px" data-i18n="a_note"></p>
+      </div>
+      <div class="panel" id="p_ios">
+        <ol class="steps"><li data-i18n="i1"></li><li data-i18n="i2"></li><li data-i18n="i3"></li></ol>
+        <div class="row"><a class="btn btn-purple" href="/play/" data-i18n="play">TARAYICIDA OYNA</a></div>
+        <p class="note" style="margin-top:18px" data-i18n="i_note"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap reveal">
+      <h2 class="title" data-i18n="final_h">Hazır mısın?</h2>
+      <p class="sub" data-i18n="final_p">Bir tur at, skorunu tabloya yaz.</p>
+      <a class="btn btn-play" href="/play/" data-i18n="play">TARAYICIDA OYNA</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span data-i18n="foot_made">Sut Games tarafından yapıldı</span>
+    <span class="links"><a href="privacy.html" data-i18n="privacy">Gizlilik</a><a href="https://sutworks.com" data-i18n="contact">İletişim</a></span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
